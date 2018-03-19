@@ -99,7 +99,7 @@ function draw() {
         DATA.GAMEOVER = 1;
         console.log("Game over");
         textSize(42);
-        text("GAME OVER!", 240, 170);
+        text("GAME OVER", 240, 170);
 
         // score below a million
         if (DATA.SCORE > 1000000) {
