@@ -30,7 +30,9 @@ function setup() {
     cells.push(new Cell());
     cells.push(new Cell());
     cells.push(new Cell());
-
+    cells.push(new Cell());
+    cells.push(new Cell());
+    cells.push(new Cell());
     
     // load game sound files into memory
     sounds["drop0"] = loadSound('assets/drop_0.mp3');
@@ -88,7 +90,7 @@ function draw() {
      *  - check if each cell is active.
      *  - An active cell is still within the visible canvas boundries
      *  - any cell that leaves the canvas will switch to inactive
-     *  - if there are no active cells left, their are no cells on screen and the game is over
+     *  - if there are no    active cells left, their are no cells on screen and the game is over
      *  - display message based on score
      */
 
